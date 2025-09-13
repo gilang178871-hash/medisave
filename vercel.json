@@ -1,0 +1,16 @@
+{
+  "functions": {
+    "app/api/download/route.ts": {
+      "maxDuration": 300
+    },
+    "app/api/create-zip/route.ts": {
+      "maxDuration": 60
+    },
+    "app/api/proxy/route.ts": {
+      "maxDuration": 60
+    }
+  },
+  "env": {
+    "YTDLP_PATH": "yt-dlp"
+  }
+}
